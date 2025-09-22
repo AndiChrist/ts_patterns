@@ -1,15 +1,15 @@
-import { Dialog } from "./Dialog"; // Creator
-import { WindowsDialog } from "./WindowsDialog"; // ConcreteCreatorA
-import { WebDialog } from "./WebDialog"; // ConcreteCreatorB
+import { Dialog } from "./Creator";
+import { WindowsDialog } from "./ConcreteCreatorA";
+import { WebDialog } from "./ConcreteCreatorB";
 
 function runFactoryMethodDemo() {
     let dialog: Dialog;
 
-    console.log("Starte Windows Dialog:");
+    console.log("Starte Windows Creator:");
     dialog = new WindowsDialog();
     dialog.render();
 
-    console.log("\nStarte Web Dialog:");
+    console.log("\nStarte Web Creator:");
     dialog = new WebDialog();
     dialog.render();
 }

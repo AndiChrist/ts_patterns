@@ -1,5 +1,4 @@
-// Creator
-import { Button } from "./Button"; // Product
+import { Button } from "./Product";
 
 export abstract class Dialog {
     // Fabrikmethode

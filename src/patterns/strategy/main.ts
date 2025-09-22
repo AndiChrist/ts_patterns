@@ -1,6 +1,6 @@
 import { Context } from "./Context";
-import { ConcreteStrategyAdd } from "./strategies/ConcreteStrategyAdd";
-import { ConcreteStrategyMultiply } from "./strategies/ConcreteStrategyMultiply";
+import { ConcreteStrategyAdd } from "./strategies/ConcreteStrategyA";
+import { ConcreteStrategyMultiply } from "./strategies/ConcreteStrategyB";
 
 function runStrategyDemo() {
     const context = new Context(new ConcreteStrategyAdd());
