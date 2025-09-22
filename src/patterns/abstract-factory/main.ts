@@ -1,6 +1,6 @@
-import {UIFactory} from "./interfaces/UIFactory";
-import {WindowsFactory} from "./factories/WindowsFactory";
-import {MacFactory} from "./factories/MacFactory";
+import {UIFactory} from "./interfaces/AbstractFactory";
+import {WindowsFactory} from "./factories/ConcreteFactory1";
+import {MacFactory} from "./factories/ConcreteFactory2";
 import {Application} from "./Application";
 
 // Beispiel: Factory zur Laufzeit wählen

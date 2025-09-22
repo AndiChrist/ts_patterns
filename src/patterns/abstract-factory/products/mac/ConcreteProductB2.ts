@@ -1,4 +1,4 @@
-import {Checkbox} from "../../interfaces/Checkbox";
+import {Checkbox} from "../../interfaces/AbstractProductB";
 
 export class MacCheckbox implements Checkbox {
     render() { console.log("Render MacCheckbox"); }

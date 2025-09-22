@@ -1,6 +1,6 @@
-import { Button } from "./interfaces/Button";
-import { Checkbox } from "./interfaces/Checkbox";
-import {UIFactory} from "./interfaces/UIFactory";
+import { Button } from "./interfaces/AbstractProductA";
+import { Checkbox } from "./interfaces/AbstractProductB";
+import { UIFactory } from "./interfaces/AbstractFactory";
 
 // Client: benutzt nur die abstrakten Interfaces
 export class Application {

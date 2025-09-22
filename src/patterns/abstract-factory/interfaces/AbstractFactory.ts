@@ -1,5 +1,5 @@
-import {Button} from "./Button";
-import {Checkbox} from "./Checkbox";
+import {Button} from "./AbstractProductA";
+import {Checkbox} from "./AbstractProductB";
 
 export interface UIFactory {
     createButton(): Button;
