@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basis */
+    "target": "ES2020",                   /* Moderne Features wie async/await */
+    "module": "CommonJS",                 /* Für Node.js; bei ESM -> "ESNext" */
+    "rootDir": "./src",                   /* Quellcode-Verzeichnis */
+    "outDir": "./dist",                   /* Output-Verzeichnis für JS */
+    "moduleResolution": "node",           /* Node.js-Importlogik */
+
+    /* Typen & Sicherheit */
+    "strict": true,                       /* Aktiviert strikte Typprüfung */
+    "esModuleInterop": true,              /* Erlaubt `import fs from "fs"` */
+    "forceConsistentCasingInFileNames": true,
+
+    /* Komfort */
+    "resolveJsonModule": true,            /* JSON-Dateien importierbar */
+    "skipLibCheck": true                  /* Überspringt Typprüfung von node_modules */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
